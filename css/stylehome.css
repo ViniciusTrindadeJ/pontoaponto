@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+hmtl, body {
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    text-align: center;
+    height: 110px;
+    background-color: #f26935;
+}
+
+header .container {
+    margin: 0 auto;
+    width: 1020px;
+    height: 110px;
+}
+
+header .container .center .logo {
+    float: left;
+    color: #faf02e;
+    padding: 19px;
+}
+
+header .container .center .menu {
+    float: right;
+}
+
+header .container .center .logo p{
+    font-family: 'Great Vibes', cursive;
+}
+
+header .container .center .logo .pontoA {
+    font-size: 48px;
+    text-shadow: 1px 1px 1px #38180c;
+}
+
+header .container .center .logo .arm {
+    font-size: 28px;
+    color: white;
+    text-shadow: 1px 1px 1px #38180c;
+    padding-left: 100px;
+    margin-top: -15px
+}
+
+header .container .center .menu ul {
+    margin: 30px;
+    font-size: 28px;
+    color: white;
+    list-style-type: none;
+}
+
+header .container .center .menu ul li {
+    float: left;
+    margin: 0 20px;
+    text-shadow: 1px 1px 1px #38180c;
+}
+
+header .container .center .menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .container .center .menu ul li a:hover {
+    text-decoration: underline;
+}
+
+section.banner {
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 550px;
+}
+
+section.banner .container {
+    margin: 0 auto;
+    width: 1020px;
+}
+
+section.banner p {
+    color: white;
+    font-size: 42px;
+    float: right;
+    background-image: red;
+    margin-top: 190px;
+    width: 550px;
+    font-weight: 200;
+}
+
+section.produtos {
+    height: 800px;
+}
+
+section.produtos .container {
+    margin: 0 auto;
+    width: 1020px;
+}
+
+section.produtos .contaienr .center h2 {
+    margin-top: 45px;
+}
+
